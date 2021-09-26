@@ -1,0 +1,4 @@
+const convertToURI = toBeConverted =>
+    toBeConverted.toLowerCase().replace(" ", "-");
+
+console.log(convertToLink("Test message"));
